@@ -41,24 +41,26 @@ print(f"Hi {guest_list[8].title()}, I\'d like to invite you for a dinner.")
 
 print("\nOh, I\'m sorry I can invite only two people to a dinner")
 guest1 = guest_list.pop()
-print(f"Hi {guest1.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest1.title()} I can\'t invite you to the dinner")
 guest2 = guest_list.pop()
-print(f"Hi {guest2.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest2.title()} I can\'t invite you to the dinner")
 guest3 = guest_list.pop()
-print(f"Hi {guest3.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest3.title()} I can\'t invite you to the dinner")
 guest4 = guest_list.pop()
-print(f"Hi {guest4.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest4.title()} I can\'t invite you to the dinner")
 guest5 = guest_list.pop()
-print(f"Hi {guest5.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest5.title()} I can\'t invite you to the dinner")
 guest6 = guest_list.pop()
-print(f"Hi {guest6.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest6.title()} I can\'t invite you to the dinner")
 guest7 = guest_list.pop()
-print(f"Hi {guest7.title()} I cen\'t invite you to the dinner")
+print(f"Hi {guest7.title()} I can\'t invite you to the dinner")
 
 print(f"Hi {guest_list[0].title()}, you\'re still invited")
 print(f"Hi {guest_list[1].title()}, you\'re still invited")
 
-del guest_list[0]
-del guest_list[0]
+guest_no = len(guest_list)
+print("\nThere will be {} guests invited".format(guest_no))
 
+del guest_list[0]
+del guest_list[0]
 print(guest_list)
