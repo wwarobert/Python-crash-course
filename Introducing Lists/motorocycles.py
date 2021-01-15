@@ -45,3 +45,6 @@ too_expensive = 'ducati'
 motorocycles.remove(too_expensive)
 print(motorocycles)
 print(f"\nA {too_expensive.title()} is just too expensive for me.")
+
+print("\nIf you want access last element on the list use -1")
+print(f"{motorocycles[-1]}")
