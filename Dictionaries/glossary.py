@@ -5,7 +5,7 @@ python_glossary = {
     'zen of python': 'python design principles',
 }
 
-print("Python glossary:");
+print("Python glossary:")
 print(f"f-string, {python_glossary['f-string']}")
 print(f"list, {python_glossary['list']}")
 print(f"dictionary, {python_glossary['dictionary']}")
