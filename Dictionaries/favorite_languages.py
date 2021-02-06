@@ -26,3 +26,15 @@ for name in sorted(favorite_languages.keys()):
 print("The following languages have been mentioned:")
 for language in favorite_languages.values():
     print(language.title())
+
+print("\n")
+for language in set(favorite_languages.values()):
+    print(language.title())
+
+print("\nPolling:")
+polling = ['jen', 'bob', 'phil', 'britney', 'sarah']
+for name in polling:
+    if name in favorite_languages:
+        print(f"{name.title()} thanks for participating in the pool!")
+    else:
+        print(f"{name.title()} feel invited to the polling!") 
