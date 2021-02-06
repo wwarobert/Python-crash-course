@@ -37,4 +37,4 @@ for name in polling:
     if name in favorite_languages:
         print(f"{name.title()} thanks for participating in the pool!")
     else:
-        print(f"{name.title()} feel invited to the polling!") 
+        print(f"{name.title()} feel invited to the polling!")
