@@ -38,3 +38,15 @@ for name in polling:
         print(f"{name.title()} thanks for participating in the pool!")
     else:
         print(f"{name.title()} feel invited to the polling!")
+
+favorite_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'heskell'],
+}
+
+for name, languages in favorite_languages.items():
+    print(f"{name.title()}\'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
