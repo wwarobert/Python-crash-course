@@ -12,3 +12,13 @@ print(make_album("Arcade Fire", "Funeral"))
 print(make_album("The Stooges", "The Stooges"))
 print(make_album("Sparks", "Kimono my house"))
 print(make_album("Juvenile", "400 Degreez", 18))
+
+while True:
+    album_name = input("Please enter artist name: ")
+    album_title = input("Please enter album title: ")
+
+    print(make_album(album_name, album_title))
+
+    quit = print("Enter 'q' if you want to quit")
+    if (quit == 'q'):
+        break
