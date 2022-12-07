@@ -19,6 +19,6 @@ while True:
 
     print(make_album(album_name, album_title))
 
-    quit = print("Enter 'q' if you want to quit")
+    quit = input("Enter 'q' if you want to quit ")
     if (quit == 'q'):
         break
